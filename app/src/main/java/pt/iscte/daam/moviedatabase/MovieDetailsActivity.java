@@ -79,7 +79,7 @@ public class MovieDetailsActivity extends AppCompatActivity {
 
                             if(jsonObject.getString("Response").compareTo("True") == 0) {
                                 movieplot.setText(jsonObject.getString("Plot"));
-
+                                movieactors.setText(jsonObject.getString("Actors"));
                                 moviedirector.setText(jsonObject.getString("Director"));
                                 moviewriter.setText(jsonObject.getString("Writer"));
 
