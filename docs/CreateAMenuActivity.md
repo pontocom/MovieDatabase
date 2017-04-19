@@ -27,5 +27,7 @@ After this, you have to go to your project `AndroidManifest.xml` file and change
 ```
 
 ## Design the layout of the MenuActivity
+Go to the layout file and design a user interface that might be similar to this one:
+
 
 [1]:	https://github.com/pontocom/MovieSearch
