@@ -126,6 +126,8 @@ arrayOfMovies = new ArrayList<Movie>();
 
 Finally we need to place this list of results to the ListView, but for that we need to create a specific adapter. The `ArrayAdapter` we’ve used on the simple version of the search cannot be used, because it can handle only an element per list item, on the ListView. We need to create our own specific adapter.
 
-This is what we are going to do on the next step - create a customised ListView and develop an customised data adapter.
+This is what we are going to do on the next step - [create a customised ListView and develop an customised data adapter][1].
+
+[1]:	https://github.com/pontocom/MovieDatabase/blob/master/docs/Customised%20ListView%20and%20Data%20Adapter.md
 
 [image-1]:	https://github.com/pontocom/MovieDatabase/blob/master/docs/images/Voila_Capture%202017-04-19_05-43-46_PM.png "Layout of the activity"

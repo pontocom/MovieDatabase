@@ -15,10 +15,10 @@ The following image depicts the layout and the storyboard of our application.
 The additional steps that are needed to complete this example are the following:
 1. [Add an additional activity for the menu][5]
 2. [Create new activity for complex Listview][6]
-3. 
+3. [Create a customised ListView and develop an customised data adapter][7]
 
 
-So, go ahead to the first step and [add an additional activity for the menu][7].
+So, go ahead to the first step and [add an additional activity for the menu][8].
 
 [1]:	https://github.com/pontocom/MovieSearch
 [2]:	https://github.com/pontocom/MovieSearch
@@ -26,7 +26,8 @@ So, go ahead to the first step and [add an additional activity for the menu][7].
 [4]:	http://www.omdbapi.com
 [5]:	https://github.com/pontocom/MovieDatabase/blob/master/docs/CreateAMenuActivity.md
 [6]:	https://github.com/pontocom/MovieDatabase/blob/master/docs/CreateComplexActivity.md
-[7]:	https://github.com/pontocom/MovieDatabase/blob/master/docs/CreateAMenuActivity.md
+[7]:	https://github.com/pontocom/MovieDatabase/blob/master/docs/Customised%20ListView%20and%20Data%20Adapter.md
+[8]:	https://github.com/pontocom/MovieDatabase/blob/master/docs/CreateAMenuActivity.md
 
 [image-1]:	https://github.com/pontocom/MovieSearch/blob/master/docs/images/Voila_Capture%202017-04-17_09-49-43_PM.png
 [image-2]:	https://github.com/pontocom/MovieDatabase/blob/master/docs/images/Voila_Capture%202017-04-19_12-05-47_PM.png
