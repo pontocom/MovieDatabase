@@ -27,4 +27,4 @@ So, go ahead to the first step and [add an additional activity for the menu][6].
 [6]:	https://github.com/pontocom/MovieDatabase/blob/master/docs/CreateAMenuActivity.md
 
 [image-1]:	https://github.com/pontocom/MovieSearch/blob/master/docs/images/Voila_Capture%202017-04-17_09-49-43_PM.png
-[image-2]:	https://github.com/pontocom/MovieSearch/blob/master/docs/images/Voila_Capture%202017-04-17_09-47-58_PM.png
+[image-2]:	https://github.com/pontocom/MovieDatabase/blob/master/docs/images/Voila_Capture%202017-04-19_12-05-47_PM.png
