@@ -60,6 +60,14 @@ Next override the `getView` method that will be used to fill the values that eac
     }
 ```
 
+Finally, back to the `MainActivity` activity, inside the `clickSearchButton` method, and inside the callback `onResponse` use the adapter just created and add it to the ListView.
+
+```java
+MoviesAdapter adapter = new MoviesAdapter(MainActivity.this, arrayOfMovies);
+resultList.setAdapter(adapter);
+```
+
+And this is all! Now go and test it!
 
 [1]:	https://github.com/pontocom/MovieDatabase/blob/master/app/src/main/res/layout/item_movie.xml
 
