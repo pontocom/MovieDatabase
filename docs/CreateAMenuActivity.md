@@ -27,7 +27,39 @@ After this, you have to go to your project `AndroidManifest.xml` file and change
 ```
 
 ## Design the layout of the MenuActivity
-Go to the layout file and design a user interface that might be similar to this one:
+Go to the layout file and design a user interface that might be similar to this one (a single page with two buttons):
 
+![][image-1]
+
+## Create the actions for the two buttons
+On the `MenuActivity.java` create two functions that will be used to launch the simple and the complex version of the simple version.
+
+Simple version:
+```java
+public void launchSimpleVersion(View v) {
+        startActivity(new Intent(MenuActivity.this, SimpleActivity.class));
+    }
+```
+
+Complex version:
+```java
+public void launchComplexVersion(View v) {
+        startActivity(new Intent(MenuActivity.this, MainActivity.class));
+    }
+```
+
+Additionally you have to check the layout file `activity_menu.xml` and add the attribute to the button for the `onClick` event.
+
+```xml
+android:onClick="launchSimpleVersion"/>
+```
+
+and 
+
+```xml
+android:onClick="launchComplexVersion"/>
+```
 
 [1]:	https://github.com/pontocom/MovieSearch
+
+[image-1]:	https://github.com/pontocom/MovieDatabase/blob/master/docs/images/Voila_Capture%202017-04-19_12-45-24_PM.png "Layout of the MenuActivity"
