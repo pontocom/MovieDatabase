@@ -14,17 +14,19 @@ The following image depicts the layout and the storyboard of our application.
 
 The additional steps that are needed to complete this example are the following:
 1. [Add an additional activity for the menu][5]
-2. 
+2. [Create new activity for complex Listview][6]
+3. 
 
 
-So, go ahead to the first step and [add an additional activity for the menu][6].
+So, go ahead to the first step and [add an additional activity for the menu][7].
 
 [1]:	https://github.com/pontocom/MovieSearch
 [2]:	https://github.com/pontocom/MovieSearch
 [3]:	https://github.com/bumptech/glide
 [4]:	http://www.omdbapi.com
 [5]:	https://github.com/pontocom/MovieDatabase/blob/master/docs/CreateAMenuActivity.md
-[6]:	https://github.com/pontocom/MovieDatabase/blob/master/docs/CreateAMenuActivity.md
+[6]:	https://github.com/pontocom/MovieDatabase/blob/master/docs/CreateComplexActivity.md
+[7]:	https://github.com/pontocom/MovieDatabase/blob/master/docs/CreateAMenuActivity.md
 
 [image-1]:	https://github.com/pontocom/MovieSearch/blob/master/docs/images/Voila_Capture%202017-04-17_09-49-43_PM.png
 [image-2]:	https://github.com/pontocom/MovieDatabase/blob/master/docs/images/Voila_Capture%202017-04-19_12-05-47_PM.png
