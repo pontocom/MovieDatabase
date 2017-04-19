@@ -30,8 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
     protected EditText searchMovie;
     protected ListView resultList;
-    protected String query;
-    protected String[] moviesResult;
+
     protected ArrayList<Movie> arrayOfMovies;
 
     @Override
@@ -57,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void clickSearchButton(View v) {
+        String query;
         query = searchMovie.getText().toString();
         searchMovie.setText("");
 
@@ -83,7 +83,6 @@ public class MainActivity extends AppCompatActivity {
 
                                 arrayOfMovies = new ArrayList<Movie>();
 
-                                moviesResult = new String[listMovies.length()];
                                 for(int i = 0; i < listMovies.length(); i++) {
                                     JSONObject jmovie = listMovies.getJSONObject(i);
                                     Log.i("MovieDatabase", jmovie.getString("Title"));
