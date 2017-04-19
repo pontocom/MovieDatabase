@@ -60,6 +60,8 @@ and
 android:onClick="launchComplexVersion"/>
 ```
 
+Next, go and create a new Activity for the complex example.
+
 [1]:	https://github.com/pontocom/MovieSearch
 
 [image-1]:	https://github.com/pontocom/MovieDatabase/blob/master/docs/images/Voila_Capture%202017-04-19_12-45-24_PM.png "Layout of the MenuActivity"
