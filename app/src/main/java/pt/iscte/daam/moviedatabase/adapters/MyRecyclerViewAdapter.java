@@ -1,11 +1,17 @@
 package pt.iscte.daam.moviedatabase.adapters;
 
+import android.content.Context;
+import android.graphics.Bitmap;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.request.animation.GlideAnimation;
+import com.bumptech.glide.request.target.BitmapImageViewTarget;
 
 import java.util.ArrayList;
 
@@ -61,7 +67,16 @@ public class MyRecyclerViewAdapter extends RecyclerView
     public void onBindViewHolder(DataObjectHolder holder, int position) {
         holder.moviename.setText(mDataset.get(position).movieName);
         holder.movieyear.setText(mDataset.get(position).movieYear);
-        //holder.movieposter.set(mDataset.get(position).moviePoster);
+        Glide
+                .with(holder.itemView.getContext())
+                .load(mDataset.get(position).moviePoster)
+                .asBitmap()
+                .into(new BitmapImageViewTarget(holder.movieposter) {
+                    @Override
+                    public void onResourceReady(Bitmap resource, GlideAnimation<? super Bitmap> glideAnimation) {
+                        super.onResourceReady(resource, glideAnimation);
+                    }
+                });
     }
 
     public void addItem(Movie dataObject, int index) {
