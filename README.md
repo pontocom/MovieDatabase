@@ -3,7 +3,8 @@ A simple application developed in Android to demo the usage of external services
 
 Please refer to the [MovieSearch application example][2] first, following the steps depicted there, and then continue to make the changes proposed here to extend its functionalities.
 
-Go ahead to the step-by-step documentation.
+Go ahead to the [step-by-step documentation][3].
 
 [1]:	https://github.com/pontocom/MovieSearch
 [2]:	https://github.com/pontocom/MovieSearch
+[3]:	https://github.com/pontocom/MovieDatabase/blob/master/docs/README.md
