@@ -7,25 +7,25 @@ Start by creating an **Empty Activity** on Android Studio. You may name this new
 After this, you have to go to your project `AndroidManifest.xml` file and change it to refer that your `MainActivity` is no longer the **LAUNCHER** activity on your application, and the `MenuActivity` will be the new **LAUNCHER** activity (`<category android:name="android.intent.category.LAUNCHER" />`).
 
 ```xml
-`\<application  
-    android:allowBackup="true"  
-    android:icon="@mipmap/ic_launcher"  
-    android:label="@string/app_name"  
-    android:roundIcon="@mipmap/ic_launcher_round"  
-    android:supportsRtl="true"  
-    android:theme="@style/AppTheme"\>  
-    \<activity android:name=".MainActivity" /\>  
-    \<activity android:name=".MovieDetailsActivity" /\>  
-    \<activity android:name=".MenuActivity"\>  
-        \<intent-filter\>  
-            \<action android:name="android.intent.action.MAIN" /\>  
-  
-            \<category android:name="android.intent.category.LAUNCHER" /\>  
-        \</intent-filter\>  
-    \</activity\>  
-\</application\>
+<application
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+    <activity android:name=".MainActivity" />
+    <activity android:name=".MovieDetailsActivity" />
+    <activity android:name=".MenuActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+</application>
 ```
-`
+
 ## Design the layout of the MenuActivity
 
 [1]:	https://github.com/pontocom/MovieSearch
