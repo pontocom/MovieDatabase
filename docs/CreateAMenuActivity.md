@@ -6,8 +6,8 @@ Start by creating an **Empty Activity** on Android Studio. You may name this new
 
 After this, you have to go to your project `AndroidManifest.xml` file and change it to refer that your `MainActivity` is no longer the **LAUNCHER** activity on your application, and the `MenuActivity` will be the new **LAUNCHER** activity (`<category android:name="android.intent.category.LAUNCHER" />`).
 
-````xml
-\<application  
+```xml
+`\<application  
     android:allowBackup="true"  
     android:icon="@mipmap/ic_launcher"  
     android:label="@string/app_name"  
@@ -24,8 +24,8 @@ After this, you have to go to your project `AndroidManifest.xml` file and change
         \</intent-filter\>  
     \</activity\>  
 \</application\>
-````
-
+```
+`
 ## Design the layout of the MenuActivity
 
 [1]:	https://github.com/pontocom/MovieSearch
